@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import confetti from 'canvas-confetti';
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,6 +11,7 @@ function App({}: AppProps) {
   // Create the counter (+1 every second).
   useEffect(() => {
     const timer = setTimeout(() => setCount(count + 1), 1000);
+    confetti()
     return () => clearTimeout(timer);
   }, [count, setCount]);
   // Return the App component.
