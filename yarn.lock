@@ -257,9 +257,7 @@
     picomatch "^2.2.2"
 
 "@snowpack/plugin-dotenv@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-dotenv/-/plugin-dotenv-2.0.5.tgz#e8bcc5cb59c951f7d560e36397960dd2252a56ee"
-  integrity sha512-y54lwYRDpTfDTU3uopHLND0DKIjjyWiYxhvOPfZvC4OpOd7UIRwMdSOd5XLZJPEBJ4BD38lDLiXh+ODfNDqhnQ==
+  version "2.2.0"
   dependencies:
     dotenv "^8.2.0"
     dotenv-expand "^5.1.0"
